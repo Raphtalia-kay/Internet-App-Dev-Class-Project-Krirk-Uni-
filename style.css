@@ -1,0 +1,151 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial, sans-serif;
+}
+
+/* Header */
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 15px 50px;
+  background-color: #f7c6d0;
+}
+
+.logo {
+  font-size: 24px;
+  font-weight: bold;
+}
+
+.nav a {
+  margin-left: 20px;
+  text-decoration: none;
+  color: #333;
+  font-weight: 500;
+}
+
+/* Hero Section */
+.hero {
+  height: 500px;
+  background-image: url("https://i.pinimg.com/1200x/e7/47/8b/e7478b2b186ad96baeedc1d97dc24ed2.jpg");
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.hero-content {
+  background-color: rgba(255, 255, 255, 0.8);
+  padding: 40px;
+  text-align: center;
+}
+
+.hero-content h1 {
+  font-size: 36px;
+  margin-bottom: 10px;
+}
+
+.hero-content p {
+  margin-bottom: 20px;
+}
+
+.hero-content button {
+  padding: 10px 20px;
+  border: none;
+  background-color: #d6336c;
+  color: white;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+/* Products */
+.products {
+  padding: 50px;
+  text-align: center;
+}
+
+.product-grid {
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+  margin-top: 30px;
+}
+
+.product-card {
+  width: 250px;
+  border: 1px solid #ddd;
+  padding: 15px;
+}
+
+.product-card img {
+  width: 100%;
+  height: 300px;
+  object-fit: cover;
+}
+
+.product-card h3 {
+  margin: 10px 0;
+}
+
+.reels {
+  padding: 60px;
+  background-color: #fff0f3;
+  text-align: center;
+}
+
+.reels-subtitle {
+  margin-top: 10px;
+  color: #666;
+}
+
+.reels-grid {
+  display: flex;
+  justify-content: center;
+  gap: 25px;
+  margin-top: 40px;
+}
+
+.reel-card {
+  width: 260px;
+  background-color: #fff;
+  border-radius: 14px;
+  overflow: hidden;
+  box-shadow: 0 8px 20px rgba(0,0,0,0.1);
+}
+
+.reel-video {
+  position: relative;
+  width: 100%;
+  padding-top: 177.78%; /* 9:16 vertical */
+}
+
+.reel-video iframe {
+  position: absolute;
+  inset: 0;
+  width: 100%;
+  height: 100%;
+}
+
+.reel-card h4 {
+  padding: 12px;
+  color: #d6336c;
+}
+
+
+
+/* Reviews */
+.reviews {
+  padding: 50px;
+  text-align: center;
+}
+
+/* Footer */
+.footer {
+  padding: 20px;
+  background-color: #333;
+  color: white;
+  text-align: center;
+}
